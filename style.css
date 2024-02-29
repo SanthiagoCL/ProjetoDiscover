@@ -10,7 +10,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.2);
-  --switch-bg-url: url(/assets/moon-stars.svg);
+  --switch-bg-url: url(/assets/moon-star.svg);
 }
 .light {
   --text-color: black;
@@ -80,7 +80,7 @@ body * {
 }
 
 #switch button:hover{
-  outline: 8px solid var(--highlight-color);
+  outline: 8px solid var(--surface-color);
 }
 
 #switch span {
